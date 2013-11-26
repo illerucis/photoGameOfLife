@@ -7,3 +7,14 @@ A photosensitive game of life where cells gain energy from a propagating electro
 At each generation, cells lose 1% of their energy gained from the wave. If a cell has a certain amount of energy and it's alive, it lives onto the next generation regardless of Conway's rules. 
 
 [Demo](http://sicurelli.com/photoGameOfLife.html)
+
+Future Work
+=====================
+
+-[] Evolution
+
+It would be awesome to encorporate evolution in this CA. Basically, some percentage of the cells would be photosensitive. A cell that is brought to life (exactly three neighbors) becomes photosensitive if at least two of its parents are photosensitive. Evolution can be turned on and off with a switch at the beginning of the simulation. 
+
+-[] Adjustable Parameters
+
+Knobs to control the strength of the field, photosensitivty of the cells, etc.
