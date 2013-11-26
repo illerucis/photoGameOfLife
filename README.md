@@ -6,7 +6,7 @@ A photosensitive game of life where cells gain energy from a propagating electro
 
 At each generation, cells lose 1% of their energy gained from the wave. If a cell has a certain amount of energy and it's alive, it lives onto the next generation regardless of Conway's rules. 
 
-## Demo
+#### Demo
 The animation is viewable [here](http://sicurelli.com/photoGameOfLife.html). The wave is shown in grayscale, and the cells are colored according to their energy (blue - less energy, red - more energy). After a certain amount of generations, the field is taken away. The cells lose energy and the normal Game of Life unfolds.
 
 Future Work
