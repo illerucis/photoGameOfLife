@@ -1,4 +1,4 @@
-This project is inspired by [The Enlightened Game of Life](http://arxiv.org/abs/0810.3179). 
+This project is inspired by [The Enlightened Game of Life](http://arxiv.org/abs/0810.3179). Built with Javascript and [D3.js](http://d3js.org/)
 
 Description
 =====================
