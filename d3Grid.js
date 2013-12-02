@@ -1,3 +1,32 @@
+function buildNodes(g)
+{
+    nodes = [];
+    data = g.ez;
+    for (var i = 0; i < data.length; i++) {
+        for (var j = 0; j < data[0].length; j++) {
+            if (g.gol[i][j][0] == 1) {
+                var node = {
+                    x     : i,
+                    y     : j,
+                    value : Math.log(Math.abs(g.gol[i][j][1]) + Number.MIN_VALUE),
+                    gol   : true
+                };
+            }
+            else {
+                var node = {
+                    x     : i, 
+                    y     : j,
+                    gol   : false,
+                    value : Math.log(Math.abs(data[i][j] + Number.MIN_VALUE) / 0.5)
+                };
+
+            }
+            nodes.push(node);
+        }
+    }
+    return nodes;
+}
+
 function updated3Grid(nodes, d3Grid)
 {
     var sen = 10;
