@@ -119,7 +119,7 @@ function zeroFields(grid)
     }
 }
 
-function runSimulation(snapshots, d3Grid)
+function displaySimulation(snapshots, d3Grid)
 {
     var iteration = snapshots.data.length - 1, count = 0;
     var timer = setInterval(function(){
@@ -132,7 +132,7 @@ function runSimulation(snapshots, d3Grid)
     }, 50);
 }
 
-function initializeSimulation(grid)
+function runSimulation(grid)
 {
     // get a source, located in the middle of the grid
     source = initializeSource(grid);
